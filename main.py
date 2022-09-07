@@ -8,6 +8,7 @@ import cdktf_cdktf_provider_aws as aws
 REGION = 'us-west-2'
 AZS = [f'{REGION}{a}' for a in ["a", "b", "c"]]
 
+
 class MyStack(TerraformStack):
     def __init__(self, scope: Construct, ns: str):
         super().__init__(scope, ns)
