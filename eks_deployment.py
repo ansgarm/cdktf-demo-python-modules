@@ -13,3 +13,7 @@ class EksDeployment(Construct):
 
         # todo: create required constructs for a Kubernetes deployment
         # within e.g. a shared EKS cluster
+
+    def add_sidecar(self, container, config):
+        # todo: implement adding a second container to the underlying spec of the deployment
+        pass
